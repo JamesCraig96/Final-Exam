@@ -1,0 +1,36 @@
+body {
+  background-color: darkgrey;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  margin: 0 auto;
+  background-color: skyblue;
+  max-width: 700px;
+  box-sizing:border-box;
+  overflow: auto;
+}
+@media(max-width: 500px) {
+    .left-column {
+      width: 100%;
+    }
+    .right-column {
+      width: 100%;
+    }
+  }
+  @media(min-width: 650px) {
+      .left-column {
+        float: left;
+        width: 66%;
+        padding: 5px;
+        box-sizing:border-box;
+      }
+      .right-column {
+        float: right;
+        width: 33%;
+        padding: 5px;
+        box-sizing: border-box;
+      }
+    }
